@@ -3,6 +3,7 @@ const HTMLWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const DotEnv = require('dotenv-webpack');
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
   entry: "./src/index.js",
@@ -64,6 +65,19 @@ module.exports = {
       filename: 'assets/styles/[name].[contenthash].css'
     }),
     new DotEnv(),
-    new FaviconsWebpackPlugin('./src/assets/images/pawprint.png')
+    new FaviconsWebpackPlugin('./src/assets/images/pawprint.png'),
+    new BundleAnalyzerPlugin()
   ],
+  devServer: {
+    static: 
+    {
+      directory: path.join(__dirname, "dist"),
+      watch: true,
+    },
+    watchFiles: path.join(__dirname, "./**"),
+    compress: true,
+    historyApiFallback: true,
+    port: 8080,
+    open: true,    
+  },
 }

@@ -1,0 +1,41 @@
+{
+  "name": "random-cat-spa",
+  "version": "1.0.0",
+  "description": "Gatitos random es la mejor fuente para encontrar imágenes adorables y divertidas de gatos. Haz clic para descubrir tu michi ideal.",
+  "main": "index.js",
+  "keywords": [
+    "gatos",
+    "gatitos",
+    "imágenes de gatos",
+    "fotos de gatos",
+    "gatos divertidos",
+    "gatos adorables"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production --config webpack.config.js",
+    "dev": "webpack --config webpack.config.dev.js",
+    "dev:watch": "webpack --watch --config webpack.config.dev.js"
+  },
+  "author": "Carlos Machado \"carlos.machadomejia@gmail.com\"",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/plugin-transform-runtime": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.3",
+    "css-minimizer-webpack-plugin": "^4.2.2",
+    "dotenv-webpack": "^8.0.1",
+    "favicons": "^7.1.1",
+    "favicons-webpack-plugin": "^6.0.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.5",
+    "terser-webpack-plugin": "^5.3.7",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1"
+  }
+}

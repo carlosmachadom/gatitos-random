@@ -4,12 +4,12 @@ Gatitos Random es una aplicación web construida con tecnologías como **HTML**,
 
 👇 Click the image to use!
 
-[![Web app screenshot](https://i.ibb.co/n1gMWRD/gatitos-random-w-netlify-app.png)](https://gatitos-random-w.netlify.app/)
+[![Web app screenshot|380](https://i.ibb.co/n1gMWRD/gatitos-random-w-netlify-app.png)](https://gatitos-random-w.netlify.app/)
 
 
 ## Créditos
 
-Queremos agradecer a los creadores de la API Cat as a service por proporcionar un servicio que permitió crear Gatitos Random. También queremos agradecer a la comunidad de código abierto por crear y mantener las bibliotecas y herramientas que usé para construir esta aplicación.
+Quiero agradecer a los creadores de la API Cat as a service por proporcionar un servicio que permitió crear Gatitos Random. También agradecer a la comunidad de código abierto por crear y mantener las bibliotecas y herramientas que usé para construir esta aplicación.
 
 ## Licencia
 
